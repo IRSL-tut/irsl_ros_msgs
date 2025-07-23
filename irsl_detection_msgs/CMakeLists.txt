@@ -15,6 +15,7 @@ add_message_files(
   FILES
   ObjectDetection.msg
   ObjectDetectionFull.msg
+  InstanceSegmentation.msg
 )
 
 ## Generate services in the 'srv' folder

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>irsl_detection_srvs</name>
+  <version>0.0.0</version>
+  <description>The irsl_detection_srvs package</description>
+
+  <maintainer email="faculty@irsl.eiiris.tut.ac.jp">Faculty_at_IRSL</maintainer>
+  <author email="faculty@irsl.eiiris.tut.ac.jp">Faculty_at_IRSL</author>
+  <license>MIT</license>
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/irsl_ros_msgs</url> -->
+
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_generation</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>irsl_detection_msgs</build_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>irsl_detection_msgs</build_export_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>irsl_detection_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>

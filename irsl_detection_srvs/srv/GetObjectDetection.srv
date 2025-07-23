@@ -1,0 +1,3 @@
+sensor_msgs/Image image
+---
+irsl_detection_msgs/ObjectDetection result
